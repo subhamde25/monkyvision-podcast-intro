@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Intermediates, drafts and review frames (rebuild with tools/; the final master lives in deliverables/)
+build/
+build4k/
+renders/
+frames/
+film/renders/
+
+# Built media the composition plays (tools/finish_aroll.py, tools/mix_audio.py)
+film/assets/video/
+film/assets/audio/
+
+# Tool state and caches
+.hyperframes/
+__pycache__/
+*.log
+.DS_Store
+Thumbs.db
