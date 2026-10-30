@@ -1,8 +1,8 @@
 # Production: pipeline, commands, versions, gotchas
 
-The repo sits next to the supplied footage: the scripts read `../Raw Footage/` (the two videos and two
-WAVs) and write intermediates to `build/` and `build4k/`, which are not in the repo. Run every tool from the
-repo root.
+The scripts read the supplied footage (the two videos and two WAVs) from `RAW_DIR`, which defaults to
+`../Raw Footage`; on the original machine that's `RAW_DIR="../Raw Footage/Raw Footage"`. They write
+intermediates to `build/` and `build4k/`, which are not in the repo. Run every tool from the repo root.
 
 ## Pipeline
 

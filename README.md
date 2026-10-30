@@ -89,10 +89,11 @@ ffmpeg and Node.js 18+ on `PATH`.
 git lfs install && git lfs pull          # fetch the final 4K60 master
 ```
 
-The supplied interview footage is not in the repo. To rebuild, put it in `../Raw Footage/` next to the repo
-(the two `6931f6…-video.mp4` files and their `-audio.wav` tracks), then:
+The supplied interview footage is not in the repo. To rebuild, point `RAW_DIR` at the folder holding it
+(the two `6931f6…-video.mp4` files and their `-audio.wav` tracks; it defaults to `../Raw Footage`), then:
 
 ```bash
+export RAW_DIR="../Raw Footage/Raw Footage"                   # where the supplied clips live
 python -I tools/make_edl.py                                   # snap the cut script → edl.json
 python -I tools/build_aroll.py                                # 1080p A-roll + dialogue + timeline
 RES=4k python -I tools/build_aroll.py && python -I tools/finish_aroll.py 4k
