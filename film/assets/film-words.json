@@ -1,0 +1,1829 @@
+[
+ {
+  "id": "w0",
+  "seg": "hook-asked",
+  "text": "I",
+  "start": 0.01,
+  "end": 0.25
+ },
+ {
+  "id": "w1",
+  "seg": "hook-asked",
+  "text": "was",
+  "start": 0.25,
+  "end": 0.39
+ },
+ {
+  "id": "w2",
+  "seg": "hook-asked",
+  "text": "asked",
+  "start": 0.39,
+  "end": 0.79
+ },
+ {
+  "id": "w3",
+  "seg": "hook-asked",
+  "text": "to",
+  "start": 0.79,
+  "end": 1.41
+ },
+ {
+  "id": "w4",
+  "seg": "hook-asked",
+  "text": "climb",
+  "start": 1.41,
+  "end": 2.03
+ },
+ {
+  "id": "w5",
+  "seg": "hook-kili",
+  "text": "Mount",
+  "start": 2.042,
+  "end": 2.282
+ },
+ {
+  "id": "w6",
+  "seg": "hook-kili",
+  "text": "Kilimanjaro",
+  "start": 2.282,
+  "end": 3.142
+ },
+ {
+  "id": "w7",
+  "seg": "hook-yes",
+  "text": "I",
+  "start": 3.358,
+  "end": 3.858
+ },
+ {
+  "id": "w8",
+  "seg": "hook-yes",
+  "text": "said",
+  "start": 3.858,
+  "end": 4.198
+ },
+ {
+  "id": "w9",
+  "seg": "hook-yes",
+  "text": "yes.",
+  "start": 4.198,
+  "end": 4.558
+ },
+ {
+  "id": "w10",
+  "seg": "hook-climber",
+  "text": "I",
+  "start": 4.853,
+  "end": 5.333
+ },
+ {
+  "id": "w11",
+  "seg": "hook-climber",
+  "text": "am",
+  "start": 5.333,
+  "end": 5.433
+ },
+ {
+  "id": "w12",
+  "seg": "hook-climber",
+  "text": "not",
+  "start": 5.433,
+  "end": 5.593
+ },
+ {
+  "id": "w13",
+  "seg": "hook-climber",
+  "text": "a",
+  "start": 5.593,
+  "end": 5.733
+ },
+ {
+  "id": "w14",
+  "seg": "hook-climber",
+  "text": "climber.",
+  "start": 5.733,
+  "end": 6.073
+ },
+ {
+  "id": "w15",
+  "seg": "hook-florida",
+  "text": "I",
+  "start": 6.4,
+  "end": 6.42
+ },
+ {
+  "id": "w16",
+  "seg": "hook-florida",
+  "text": "live",
+  "start": 6.42,
+  "end": 6.56
+ },
+ {
+  "id": "w17",
+  "seg": "hook-florida",
+  "text": "in",
+  "start": 6.56,
+  "end": 6.76
+ },
+ {
+  "id": "w18",
+  "seg": "hook-florida",
+  "text": "Florida.",
+  "start": 6.76,
+  "end": 7.08
+ },
+ {
+  "id": "w19",
+  "seg": "hook-16",
+  "text": "I",
+  "start": 7.357,
+  "end": 7.557
+ },
+ {
+  "id": "w20",
+  "seg": "hook-16",
+  "text": "have",
+  "start": 7.557,
+  "end": 7.737
+ },
+ {
+  "id": "w21",
+  "seg": "hook-16",
+  "text": "16",
+  "start": 7.737,
+  "end": 8.197
+ },
+ {
+  "id": "w22",
+  "seg": "hook-16",
+  "text": "steps",
+  "start": 8.197,
+  "end": 8.537
+ },
+ {
+  "id": "w23",
+  "seg": "hook-laugh",
+  "text": "in",
+  "start": 8.583,
+  "end": 8.743
+ },
+ {
+  "id": "w24",
+  "seg": "hook-laugh",
+  "text": "my",
+  "start": 8.743,
+  "end": 8.863
+ },
+ {
+  "id": "w25",
+  "seg": "hook-laugh",
+  "text": "house.",
+  "start": 8.863,
+  "end": 9.123
+ },
+ {
+  "id": "w26",
+  "seg": "hook-laugh",
+  "text": "Like",
+  "start": 9.303,
+  "end": 9.323
+ },
+ {
+  "id": "w27",
+  "seg": "hook-laugh",
+  "text": "there",
+  "start": 9.323,
+  "end": 9.463
+ },
+ {
+  "id": "w28",
+  "seg": "hook-laugh",
+  "text": "is",
+  "start": 9.463,
+  "end": 9.583
+ },
+ {
+  "id": "w29",
+  "seg": "title",
+  "text": "Welcome",
+  "start": 9.683,
+  "end": 10.183
+ },
+ {
+  "id": "w30",
+  "seg": "title",
+  "text": "to",
+  "start": 10.183,
+  "end": 10.543
+ },
+ {
+  "id": "w31",
+  "seg": "title",
+  "text": "another",
+  "start": 10.543,
+  "end": 10.803
+ },
+ {
+  "id": "w32",
+  "seg": "title",
+  "text": "episode",
+  "start": 10.803,
+  "end": 11.283
+ },
+ {
+  "id": "w33",
+  "seg": "title",
+  "text": "of",
+  "start": 11.283,
+  "end": 11.643
+ },
+ {
+  "id": "w34",
+  "seg": "title",
+  "text": "the",
+  "start": 11.583,
+  "end": 11.783
+ },
+ {
+  "id": "w35",
+  "seg": "title",
+  "text": "Resilient",
+  "start": 11.763,
+  "end": 12.243
+ },
+ {
+  "id": "w36",
+  "seg": "title",
+  "text": "Mind",
+  "start": 12.243,
+  "end": 12.483
+ },
+ {
+  "id": "w37",
+  "seg": "title",
+  "text": "podcast.",
+  "start": 12.483,
+  "end": 12.983
+ },
+ {
+  "id": "w38",
+  "seg": "intro-simone",
+  "text": "Today",
+  "start": 13.198,
+  "end": 13.498
+ },
+ {
+  "id": "w39",
+  "seg": "intro-simone",
+  "text": "I'm",
+  "start": 13.498,
+  "end": 13.778
+ },
+ {
+  "id": "w40",
+  "seg": "intro-simone",
+  "text": "excited",
+  "start": 13.758,
+  "end": 14.158
+ },
+ {
+  "id": "w41",
+  "seg": "intro-simone",
+  "text": "to",
+  "start": 14.158,
+  "end": 14.478
+ },
+ {
+  "id": "w42",
+  "seg": "intro-simone",
+  "text": "be",
+  "start": 14.478,
+  "end": 14.618
+ },
+ {
+  "id": "w43",
+  "seg": "intro-simone",
+  "text": "joined",
+  "start": 14.618,
+  "end": 14.878
+ },
+ {
+  "id": "w44",
+  "seg": "intro-simone",
+  "text": "by",
+  "start": 14.878,
+  "end": 15.098
+ },
+ {
+  "id": "w45",
+  "seg": "intro-simone",
+  "text": "Simone",
+  "start": 15.098,
+  "end": 15.438
+ },
+ {
+  "id": "w46",
+  "seg": "intro-keynote",
+  "text": "keynote",
+  "start": 15.718,
+  "end": 15.918
+ },
+ {
+  "id": "w47",
+  "seg": "intro-keynote",
+  "text": "speaker,",
+  "start": 15.918,
+  "end": 16.578
+ },
+ {
+  "id": "w48",
+  "seg": "intro-coach",
+  "text": "a",
+  "start": 16.877,
+  "end": 16.957
+ },
+ {
+  "id": "w49",
+  "seg": "intro-coach",
+  "text": "coach,",
+  "start": 16.957,
+  "end": 17.297
+ },
+ {
+  "id": "w50",
+  "seg": "intro-author",
+  "text": "an",
+  "start": 17.475,
+  "end": 17.515
+ },
+ {
+  "id": "w51",
+  "seg": "intro-author",
+  "text": "author,",
+  "start": 17.515,
+  "end": 17.895
+ },
+ {
+  "id": "w52",
+  "seg": "intro-host",
+  "text": "a",
+  "start": 18.198,
+  "end": 18.298
+ },
+ {
+  "id": "w53",
+  "seg": "intro-host",
+  "text": "podcast",
+  "start": 18.298,
+  "end": 18.698
+ },
+ {
+  "id": "w54",
+  "seg": "intro-host",
+  "text": "host.",
+  "start": 18.698,
+  "end": 19.038
+ },
+ {
+  "id": "w55",
+  "seg": "intro-notlife",
+  "text": "And",
+  "start": 19.223,
+  "end": 19.343
+ },
+ {
+  "id": "w56",
+  "seg": "intro-notlife",
+  "text": "this",
+  "start": 19.343,
+  "end": 20.403
+ },
+ {
+  "id": "w57",
+  "seg": "intro-notlife",
+  "text": "is",
+  "start": 20.403,
+  "end": 20.543
+ },
+ {
+  "id": "w58",
+  "seg": "intro-notlife",
+  "text": "not",
+  "start": 20.543,
+  "end": 20.763
+ },
+ {
+  "id": "w59",
+  "seg": "intro-notlife",
+  "text": "how",
+  "start": 20.763,
+  "end": 21.023
+ },
+ {
+  "id": "w60",
+  "seg": "intro-notlife",
+  "text": "I",
+  "start": 21.023,
+  "end": 21.163
+ },
+ {
+  "id": "w61",
+  "seg": "intro-notlife",
+  "text": "started",
+  "start": 21.163,
+  "end": 21.463
+ },
+ {
+  "id": "w62",
+  "seg": "intro-notlife",
+  "text": "my",
+  "start": 21.463,
+  "end": 21.803
+ },
+ {
+  "id": "w63",
+  "seg": "intro-notlife",
+  "text": "life.",
+  "start": 21.803,
+  "end": 22.083
+ },
+ {
+  "id": "w64",
+  "seg": "intro-acct",
+  "text": "I",
+  "start": 22.318,
+  "end": 22.338
+ },
+ {
+  "id": "w65",
+  "seg": "intro-acct",
+  "text": "started",
+  "start": 22.338,
+  "end": 22.598
+ },
+ {
+  "id": "w66",
+  "seg": "intro-acct",
+  "text": "off",
+  "start": 22.598,
+  "end": 22.878
+ },
+ {
+  "id": "w67",
+  "seg": "intro-acct",
+  "text": "as",
+  "start": 22.878,
+  "end": 23.278
+ },
+ {
+  "id": "w68",
+  "seg": "intro-acct",
+  "text": "an",
+  "start": 23.278,
+  "end": 23.458
+ },
+ {
+  "id": "w69",
+  "seg": "intro-acct",
+  "text": "accountant.",
+  "start": 23.458,
+  "end": 23.798
+ },
+ {
+  "id": "w70",
+  "seg": "selfish-q1",
+  "text": "really",
+  "start": 24.283,
+  "end": 25.243
+ },
+ {
+  "id": "w71",
+  "seg": "selfish-q1",
+  "text": "gonna",
+  "start": 25.243,
+  "end": 25.543
+ },
+ {
+  "id": "w72",
+  "seg": "selfish-q1",
+  "text": "leave",
+  "start": 25.543,
+  "end": 25.783
+ },
+ {
+  "id": "w73",
+  "seg": "selfish-q1",
+  "text": "your",
+  "start": 25.783,
+  "end": 25.963
+ },
+ {
+  "id": "w74",
+  "seg": "selfish-q1",
+  "text": "family",
+  "start": 25.963,
+  "end": 26.323
+ },
+ {
+  "id": "w75",
+  "seg": "selfish-q1",
+  "text": "at",
+  "start": 26.323,
+  "end": 26.563
+ },
+ {
+  "id": "w76",
+  "seg": "selfish-q1",
+  "text": "home",
+  "start": 26.563,
+  "end": 26.843
+ },
+ {
+  "id": "w77",
+  "seg": "selfish-q1",
+  "text": "and",
+  "start": 26.843,
+  "end": 27.167
+ },
+ {
+  "id": "w78",
+  "seg": "selfish-q2",
+  "text": "go",
+  "start": 27.207,
+  "end": 27.487
+ },
+ {
+  "id": "w79",
+  "seg": "selfish-q2",
+  "text": "climb",
+  "start": 27.487,
+  "end": 27.827
+ },
+ {
+  "id": "w80",
+  "seg": "selfish-q2",
+  "text": "a",
+  "start": 27.827,
+  "end": 27.967
+ },
+ {
+  "id": "w81",
+  "seg": "selfish-q2",
+  "text": "mountain?",
+  "start": 27.967,
+  "end": 28.227
+ },
+ {
+  "id": "w82",
+  "seg": "selfish-q2",
+  "text": "Don't",
+  "start": 28.407,
+  "end": 28.527
+ },
+ {
+  "id": "w83",
+  "seg": "selfish-q2",
+  "text": "you",
+  "start": 28.527,
+  "end": 28.647
+ },
+ {
+  "id": "w84",
+  "seg": "selfish-q2",
+  "text": "think",
+  "start": 28.647,
+  "end": 28.787
+ },
+ {
+  "id": "w85",
+  "seg": "selfish-q2",
+  "text": "that's",
+  "start": 28.787,
+  "end": 29.067
+ },
+ {
+  "id": "w86",
+  "seg": "selfish-q2",
+  "text": "selfish?",
+  "start": 29.067,
+  "end": 29.427
+ },
+ {
+  "id": "w87",
+  "seg": "selfish-a",
+  "text": "but",
+  "start": 29.75,
+  "end": 29.83
+ },
+ {
+  "id": "w88",
+  "seg": "selfish-a",
+  "text": "my",
+  "start": 29.82,
+  "end": 30.04
+ },
+ {
+  "id": "w89",
+  "seg": "selfish-a",
+  "text": "response",
+  "start": 30.04,
+  "end": 30.38
+ },
+ {
+  "id": "w90",
+  "seg": "selfish-a",
+  "text": "was",
+  "start": 30.38,
+  "end": 30.62
+ },
+ {
+  "id": "w91",
+  "seg": "selfish-a",
+  "text": "no,",
+  "start": 30.62,
+  "end": 30.9
+ },
+ {
+  "id": "w92",
+  "seg": "selfish-a",
+  "text": "self",
+  "start": 31.28,
+  "end": 31.3
+ },
+ {
+  "id": "w93",
+  "seg": "selfish-a",
+  "text": "-care",
+  "start": 31.3,
+  "end": 31.48
+ },
+ {
+  "id": "w94",
+  "seg": "selfish-a",
+  "text": "is",
+  "start": 31.48,
+  "end": 31.64
+ },
+ {
+  "id": "w95",
+  "seg": "selfish-a",
+  "text": "never",
+  "start": 31.64,
+  "end": 31.92
+ },
+ {
+  "id": "w96",
+  "seg": "selfish-a",
+  "text": "selfish.",
+  "start": 31.92,
+  "end": 32.36
+ },
+ {
+  "id": "w97",
+  "seg": "top-q",
+  "text": "do",
+  "start": 32.738,
+  "end": 32.738
+ },
+ {
+  "id": "w98",
+  "seg": "top-q",
+  "text": "you",
+  "start": 32.738,
+  "end": 32.878
+ },
+ {
+  "id": "w99",
+  "seg": "top-q",
+  "text": "really",
+  "start": 32.878,
+  "end": 33.098
+ },
+ {
+  "id": "w100",
+  "seg": "top-q",
+  "text": "think",
+  "start": 32.928,
+  "end": 33.268
+ },
+ {
+  "id": "w101",
+  "seg": "top-q",
+  "text": "you're",
+  "start": 33.268,
+  "end": 33.508
+ },
+ {
+  "id": "w102",
+  "seg": "top-q",
+  "text": "going",
+  "start": 33.498,
+  "end": 33.578
+ },
+ {
+  "id": "w103",
+  "seg": "top-q",
+  "text": "gonna",
+  "start": 33.508,
+  "end": 33.608
+ },
+ {
+  "id": "w104",
+  "seg": "top-q",
+  "text": "to",
+  "start": 33.578,
+  "end": 33.678
+ },
+ {
+  "id": "w105",
+  "seg": "top-q",
+  "text": "make",
+  "start": 33.608,
+  "end": 33.848
+ },
+ {
+  "id": "w106",
+  "seg": "top-q",
+  "text": "it",
+  "start": 33.838,
+  "end": 33.978
+ },
+ {
+  "id": "w107",
+  "seg": "top-q",
+  "text": "to",
+  "start": 33.968,
+  "end": 34.088
+ },
+ {
+  "id": "w108",
+  "seg": "top-q",
+  "text": "the",
+  "start": 34.078,
+  "end": 34.218
+ },
+ {
+  "id": "w109",
+  "seg": "top-q",
+  "text": "top.",
+  "start": 34.208,
+  "end": 34.468
+ },
+ {
+  "id": "w110",
+  "seg": "top-q",
+  "text": "No,",
+  "start": 35.338,
+  "end": 35.558
+ },
+ {
+  "id": "w111",
+  "seg": "top-q",
+  "text": "I",
+  "start": 35.718,
+  "end": 35.818
+ },
+ {
+  "id": "w112",
+  "seg": "top-q",
+  "text": "think",
+  "start": 35.818,
+  "end": 35.917
+ },
+ {
+  "id": "w113",
+  "seg": "top-half",
+  "text": "I'm",
+  "start": 35.937,
+  "end": 36.117
+ },
+ {
+  "id": "w114",
+  "seg": "top-half",
+  "text": "going",
+  "start": 36.107,
+  "end": 36.187
+ },
+ {
+  "id": "w115",
+  "seg": "top-half",
+  "text": "gonna",
+  "start": 36.117,
+  "end": 36.217
+ },
+ {
+  "id": "w116",
+  "seg": "top-half",
+  "text": "to",
+  "start": 36.187,
+  "end": 36.267
+ },
+ {
+  "id": "w117",
+  "seg": "top-half",
+  "text": "make",
+  "start": 36.217,
+  "end": 36.397
+ },
+ {
+  "id": "w118",
+  "seg": "top-half",
+  "text": "it",
+  "start": 36.397,
+  "end": 36.517
+ },
+ {
+  "id": "w119",
+  "seg": "top-half",
+  "text": "halfway.",
+  "start": 36.517,
+  "end": 36.797
+ },
+ {
+  "id": "w120",
+  "seg": "top-laugh",
+  "text": "That's",
+  "start": 37.053,
+  "end": 37.173
+ },
+ {
+  "id": "w121",
+  "seg": "top-laugh",
+  "text": "why",
+  "start": 37.173,
+  "end": 37.313
+ },
+ {
+  "id": "w122",
+  "seg": "top-laugh",
+  "text": "I'm",
+  "start": 37.313,
+  "end": 37.473
+ },
+ {
+  "id": "w123",
+  "seg": "top-laugh",
+  "text": "doing",
+  "start": 37.463,
+  "end": 37.623
+ },
+ {
+  "id": "w124",
+  "seg": "top-laugh",
+  "text": "it.",
+  "start": 37.623,
+  "end": 37.843
+ },
+ {
+  "id": "w125",
+  "seg": "skill",
+  "text": "confidence",
+  "start": 37.983,
+  "end": 38.783
+ },
+ {
+  "id": "w126",
+  "seg": "skill",
+  "text": "is",
+  "start": 38.783,
+  "end": 39.183
+ },
+ {
+  "id": "w127",
+  "seg": "skill",
+  "text": "a",
+  "start": 39.183,
+  "end": 39.323
+ },
+ {
+  "id": "w128",
+  "seg": "skill",
+  "text": "skill",
+  "start": 39.323,
+  "end": 39.563
+ },
+ {
+  "id": "w129",
+  "seg": "skill",
+  "text": "that",
+  "start": 39.563,
+  "end": 39.763
+ },
+ {
+  "id": "w130",
+  "seg": "skill",
+  "text": "you",
+  "start": 39.763,
+  "end": 39.903
+ },
+ {
+  "id": "w131",
+  "seg": "skill",
+  "text": "build",
+  "start": 39.903,
+  "end": 40.123
+ },
+ {
+  "id": "w132",
+  "seg": "space",
+  "text": "What",
+  "start": 40.39,
+  "end": 40.41
+ },
+ {
+  "id": "w133",
+  "seg": "space",
+  "text": "would",
+  "start": 40.41,
+  "end": 40.55
+ },
+ {
+  "id": "w134",
+  "seg": "space",
+  "text": "happen",
+  "start": 40.55,
+  "end": 40.87
+ },
+ {
+  "id": "w135",
+  "seg": "space",
+  "text": "if",
+  "start": 40.87,
+  "end": 41.01
+ },
+ {
+  "id": "w136",
+  "seg": "space",
+  "text": "you",
+  "start": 41.01,
+  "end": 41.13
+ },
+ {
+  "id": "w137",
+  "seg": "space",
+  "text": "took",
+  "start": 41.13,
+  "end": 41.27
+ },
+ {
+  "id": "w138",
+  "seg": "space",
+  "text": "up",
+  "start": 41.27,
+  "end": 41.41
+ },
+ {
+  "id": "w139",
+  "seg": "space",
+  "text": "space?",
+  "start": 41.41,
+  "end": 41.69
+ },
+ {
+  "id": "w140",
+  "seg": "whynot",
+  "text": "Why",
+  "start": 41.935,
+  "end": 42.115
+ },
+ {
+  "id": "w141",
+  "seg": "whynot",
+  "text": "not",
+  "start": 42.115,
+  "end": 42.375
+ },
+ {
+  "id": "w142",
+  "seg": "whynot",
+  "text": "you?",
+  "start": 42.375,
+  "end": 42.655
+ },
+ {
+  "id": "w143",
+  "seg": "justq",
+  "text": "We",
+  "start": 42.892,
+  "end": 42.892
+ },
+ {
+  "id": "w144",
+  "seg": "justq",
+  "text": "need",
+  "start": 42.892,
+  "end": 43.012
+ },
+ {
+  "id": "w145",
+  "seg": "justq",
+  "text": "to",
+  "start": 43.012,
+  "end": 43.152
+ },
+ {
+  "id": "w146",
+  "seg": "justq",
+  "text": "drop",
+  "start": 43.152,
+  "end": 43.372
+ },
+ {
+  "id": "w147",
+  "seg": "justq",
+  "text": "the",
+  "start": 43.372,
+  "end": 43.592
+ },
+ {
+  "id": "w148",
+  "seg": "justq",
+  "text": "just.",
+  "start": 43.592,
+  "end": 43.912
+ },
+ {
+  "id": "w149",
+  "seg": "scroll-1",
+  "text": "how",
+  "start": 44.25,
+  "end": 44.27
+ },
+ {
+  "id": "w150",
+  "seg": "scroll-1",
+  "text": "much",
+  "start": 44.27,
+  "end": 44.57
+ },
+ {
+  "id": "w151",
+  "seg": "scroll-1",
+  "text": "time",
+  "start": 44.57,
+  "end": 44.79
+ },
+ {
+  "id": "w152",
+  "seg": "scroll-1",
+  "text": "are",
+  "start": 44.79,
+  "end": 44.91
+ },
+ {
+  "id": "w153",
+  "seg": "scroll-1",
+  "text": "you",
+  "start": 44.91,
+  "end": 45.01
+ },
+ {
+  "id": "w154",
+  "seg": "scroll-1",
+  "text": "spending",
+  "start": 45.01,
+  "end": 45.29
+ },
+ {
+  "id": "w155",
+  "seg": "scroll-1",
+  "text": "scrolling",
+  "start": 45.29,
+  "end": 45.69
+ },
+ {
+  "id": "w156",
+  "seg": "scroll-2",
+  "text": "on",
+  "start": 45.792,
+  "end": 46.152
+ },
+ {
+  "id": "w157",
+  "seg": "scroll-2",
+  "text": "your",
+  "start": 46.152,
+  "end": 46.312
+ },
+ {
+  "id": "w158",
+  "seg": "scroll-2",
+  "text": "phone,",
+  "start": 46.312,
+  "end": 46.572
+ },
+ {
+  "id": "w159",
+  "seg": "social",
+  "text": "I",
+  "start": 46.837,
+  "end": 46.837
+ },
+ {
+  "id": "w160",
+  "seg": "social",
+  "text": "don't",
+  "start": 46.837,
+  "end": 47.457
+ },
+ {
+  "id": "w161",
+  "seg": "social",
+  "text": "want",
+  "start": 47.457,
+  "end": 47.737
+ },
+ {
+  "id": "w162",
+  "seg": "social",
+  "text": "to",
+  "start": 47.737,
+  "end": 47.897
+ },
+ {
+  "id": "w163",
+  "seg": "social",
+  "text": "know",
+  "start": 47.897,
+  "end": 48.017
+ },
+ {
+  "id": "w164",
+  "seg": "social",
+  "text": "how",
+  "start": 48.017,
+  "end": 48.177
+ },
+ {
+  "id": "w165",
+  "seg": "social",
+  "text": "much",
+  "start": 48.177,
+  "end": 48.417
+ },
+ {
+  "id": "w166",
+  "seg": "social",
+  "text": "time",
+  "start": 48.417,
+  "end": 48.717
+ },
+ {
+  "id": "w167",
+  "seg": "social",
+  "text": "I",
+  "start": 48.717,
+  "end": 48.877
+ },
+ {
+  "id": "w168",
+  "seg": "social",
+  "text": "spend",
+  "start": 48.877,
+  "end": 49.077
+ },
+ {
+  "id": "w169",
+  "seg": "social",
+  "text": "on",
+  "start": 49.077,
+  "end": 49.277
+ },
+ {
+  "id": "w170",
+  "seg": "social",
+  "text": "social",
+  "start": 49.277,
+  "end": 49.537
+ },
+ {
+  "id": "w171",
+  "seg": "social",
+  "text": "media.",
+  "start": 49.537,
+  "end": 50.037
+ },
+ {
+  "id": "w172",
+  "seg": "real-intro",
+  "text": "real",
+  "start": 50.485,
+  "end": 51.585
+ },
+ {
+  "id": "w173",
+  "seg": "real-intro",
+  "text": "stands",
+  "start": 51.585,
+  "end": 51.845
+ },
+ {
+  "id": "w174",
+  "seg": "real-intro",
+  "text": "for",
+  "start": 51.845,
+  "end": 52.083
+ },
+ {
+  "id": "w175",
+  "seg": "real-r",
+  "text": "respect",
+  "start": 52.103,
+  "end": 52.403
+ },
+ {
+  "id": "w176",
+  "seg": "real-r",
+  "text": "yourself,",
+  "start": 52.403,
+  "end": 52.863
+ },
+ {
+  "id": "w177",
+  "seg": "real-e",
+  "text": "embrace",
+  "start": 53.227,
+  "end": 53.827
+ },
+ {
+  "id": "w178",
+  "seg": "real-e",
+  "text": "your",
+  "start": 53.827,
+  "end": 54.067
+ },
+ {
+  "id": "w179",
+  "seg": "real-e",
+  "text": "failures,",
+  "start": 54.067,
+  "end": 54.427
+ },
+ {
+  "id": "w180",
+  "seg": "real-a",
+  "text": "ask",
+  "start": 55.038,
+  "end": 55.258
+ },
+ {
+  "id": "w181",
+  "seg": "real-a",
+  "text": "yourself",
+  "start": 55.258,
+  "end": 55.578
+ },
+ {
+  "id": "w182",
+  "seg": "real-a",
+  "text": "what",
+  "start": 55.578,
+  "end": 55.778
+ },
+ {
+  "id": "w183",
+  "seg": "real-a",
+  "text": "you",
+  "start": 55.778,
+  "end": 55.918
+ },
+ {
+  "id": "w184",
+  "seg": "real-a",
+  "text": "want,",
+  "start": 55.918,
+  "end": 56.178
+ },
+ {
+  "id": "w185",
+  "seg": "real-l",
+  "text": "and",
+  "start": 56.383,
+  "end": 56.523
+ },
+ {
+  "id": "w186",
+  "seg": "real-l",
+  "text": "live",
+  "start": 56.523,
+  "end": 56.683
+ },
+ {
+  "id": "w187",
+  "seg": "real-l",
+  "text": "without",
+  "start": 56.683,
+  "end": 56.963
+ },
+ {
+  "id": "w188",
+  "seg": "real-l",
+  "text": "limits.",
+  "start": 56.963,
+  "end": 57.263
+ },
+ {
+  "id": "w189",
+  "seg": "dated",
+  "text": "so",
+  "start": 57.625,
+  "end": 57.685
+ },
+ {
+  "id": "w190",
+  "seg": "dated",
+  "text": "I",
+  "start": 57.685,
+  "end": 57.805
+ },
+ {
+  "id": "w191",
+  "seg": "dated",
+  "text": "dated",
+  "start": 57.805,
+  "end": 58.365
+ },
+ {
+  "id": "w192",
+  "seg": "dated",
+  "text": "a",
+  "start": 58.365,
+  "end": 59.465
+ },
+ {
+  "id": "w193",
+  "seg": "dated",
+  "text": "guy",
+  "start": 59.465,
+  "end": 60.005
+ },
+ {
+  "id": "w194",
+  "seg": "dated",
+  "text": "in",
+  "start": 60.005,
+  "end": 60.145
+ },
+ {
+  "id": "w195",
+  "seg": "dated",
+  "text": "high",
+  "start": 60.145,
+  "end": 60.305
+ },
+ {
+  "id": "w196",
+  "seg": "dated",
+  "text": "school",
+  "start": 60.305,
+  "end": 60.5
+ },
+ {
+  "id": "w197",
+  "seg": "dated-host",
+  "text": "who",
+  "start": 60.51,
+  "end": 60.73
+ },
+ {
+  "id": "w198",
+  "seg": "dated-host",
+  "text": "was",
+  "start": 60.73,
+  "end": 61.09
+ },
+ {
+  "id": "w199",
+  "seg": "dated-host",
+  "text": "abusive",
+  "start": 61.09,
+  "end": 62.07
+ },
+ {
+  "id": "w200",
+  "seg": "stuffed",
+  "text": "and",
+  "start": 62.083,
+  "end": 62.853
+ },
+ {
+  "id": "w201",
+  "seg": "stuffed",
+  "text": "I",
+  "start": 62.853,
+  "end": 63.253
+ },
+ {
+  "id": "w202",
+  "seg": "stuffed",
+  "text": "stuffed",
+  "start": 63.253,
+  "end": 63.593
+ },
+ {
+  "id": "w203",
+  "seg": "stuffed",
+  "text": "it",
+  "start": 63.593,
+  "end": 63.793
+ },
+ {
+  "id": "w204",
+  "seg": "stuffed",
+  "text": "down",
+  "start": 63.793,
+  "end": 63.973
+ },
+ {
+  "id": "w205",
+  "seg": "stuffed",
+  "text": "for",
+  "start": 63.973,
+  "end": 64.213
+ },
+ {
+  "id": "w206",
+  "seg": "stuffed",
+  "text": "years.",
+  "start": 64.213,
+  "end": 64.453
+ },
+ {
+  "id": "w207",
+  "seg": "mom-1",
+  "text": "the",
+  "start": 64.625,
+  "end": 64.745
+ },
+ {
+  "id": "w208",
+  "seg": "mom-1",
+  "text": "male",
+  "start": 64.745,
+  "end": 64.925
+ },
+ {
+  "id": "w209",
+  "seg": "mom-1",
+  "text": "students",
+  "start": 64.925,
+  "end": 65.265
+ },
+ {
+  "id": "w210",
+  "seg": "mom-1",
+  "text": "say,",
+  "start": 65.265,
+  "end": 65.565
+ },
+ {
+  "id": "w211",
+  "seg": "mom-2",
+  "text": "you",
+  "start": 65.843,
+  "end": 65.883
+ },
+ {
+  "id": "w212",
+  "seg": "mom-2",
+  "text": "took",
+  "start": 65.883,
+  "end": 66.063
+ },
+ {
+  "id": "w213",
+  "seg": "mom-2",
+  "text": "a",
+  "start": 66.063,
+  "end": 66.203
+ },
+ {
+  "id": "w214",
+  "seg": "mom-2",
+  "text": "man's",
+  "start": 66.203,
+  "end": 66.543
+ },
+ {
+  "id": "w215",
+  "seg": "mom-2",
+  "text": "spot,",
+  "start": 66.543,
+  "end": 66.743
+ },
+ {
+  "id": "w216",
+  "seg": "mom-2",
+  "text": "you",
+  "start": 66.863,
+  "end": 66.943
+ },
+ {
+  "id": "w217",
+  "seg": "mom-2",
+  "text": "don't",
+  "start": 66.943,
+  "end": 67.163
+ },
+ {
+  "id": "w218",
+  "seg": "mom-2",
+  "text": "deserve",
+  "start": 67.163,
+  "end": 67.383
+ },
+ {
+  "id": "w219",
+  "seg": "mom-2",
+  "text": "to",
+  "start": 67.383,
+  "end": 67.583
+ },
+ {
+  "id": "w220",
+  "seg": "mom-2",
+  "text": "be",
+  "start": 67.583,
+  "end": 67.723
+ },
+ {
+  "id": "w221",
+  "seg": "mom-2",
+  "text": "here.",
+  "start": 67.723,
+  "end": 67.963
+ },
+ {
+  "id": "w222",
+  "seg": "teacher",
+  "text": "teacher",
+  "start": 68.15,
+  "end": 69.15
+ },
+ {
+  "id": "w223",
+  "seg": "teacher",
+  "text": "who",
+  "start": 69.15,
+  "end": 69.79
+ },
+ {
+  "id": "w224",
+  "seg": "teacher",
+  "text": "told",
+  "start": 69.79,
+  "end": 70.13
+ },
+ {
+  "id": "w225",
+  "seg": "teacher",
+  "text": "me",
+  "start": 70.13,
+  "end": 70.33
+ },
+ {
+  "id": "w226",
+  "seg": "teacher",
+  "text": "that",
+  "start": 70.33,
+  "end": 70.458
+ },
+ {
+  "id": "w227",
+  "seg": "writer",
+  "text": "I",
+  "start": 70.548,
+  "end": 70.768
+ },
+ {
+  "id": "w228",
+  "seg": "writer",
+  "text": "was",
+  "start": 70.768,
+  "end": 70.908
+ },
+ {
+  "id": "w229",
+  "seg": "writer",
+  "text": "not",
+  "start": 70.908,
+  "end": 71.108
+ },
+ {
+  "id": "w230",
+  "seg": "writer",
+  "text": "a",
+  "start": 71.108,
+  "end": 71.208
+ },
+ {
+  "id": "w231",
+  "seg": "writer",
+  "text": "good",
+  "start": 71.208,
+  "end": 71.328
+ },
+ {
+  "id": "w232",
+  "seg": "writer",
+  "text": "writer.",
+  "start": 71.328,
+  "end": 71.668
+ },
+ {
+  "id": "w233",
+  "seg": "published",
+  "text": "And",
+  "start": 71.95,
+  "end": 71.95
+ },
+ {
+  "id": "w234",
+  "seg": "published",
+  "text": "when",
+  "start": 71.95,
+  "end": 72.89
+ },
+ {
+  "id": "w235",
+  "seg": "published",
+  "text": "I",
+  "start": 72.89,
+  "end": 73.03
+ },
+ {
+  "id": "w236",
+  "seg": "published",
+  "text": "published",
+  "start": 73.03,
+  "end": 73.27
+ },
+ {
+  "id": "w237",
+  "seg": "published",
+  "text": "my",
+  "start": 73.27,
+  "end": 73.49
+ },
+ {
+  "id": "w238",
+  "seg": "published",
+  "text": "first",
+  "start": 73.49,
+  "end": 73.71
+ },
+ {
+  "id": "w239",
+  "seg": "published",
+  "text": "book,",
+  "start": 73.71,
+  "end": 73.93
+ },
+ {
+  "id": "w240",
+  "seg": "sowrong",
+  "text": "I",
+  "start": 74.05,
+  "end": 74.05
+ },
+ {
+  "id": "w241",
+  "seg": "sowrong",
+  "text": "was",
+  "start": 74.05,
+  "end": 74.15
+ },
+ {
+  "id": "w242",
+  "seg": "sowrong",
+  "text": "like,",
+  "start": 74.15,
+  "end": 74.29
+ },
+ {
+  "id": "w243",
+  "seg": "sowrong",
+  "text": "oh,",
+  "start": 74.47,
+  "end": 74.57
+ },
+ {
+  "id": "w244",
+  "seg": "sowrong",
+  "text": "she",
+  "start": 74.65,
+  "end": 74.77
+ },
+ {
+  "id": "w245",
+  "seg": "sowrong",
+  "text": "was",
+  "start": 74.77,
+  "end": 74.91
+ },
+ {
+  "id": "w246",
+  "seg": "sowrong",
+  "text": "so",
+  "start": 74.91,
+  "end": 75.11
+ },
+ {
+  "id": "w247",
+  "seg": "sowrong",
+  "text": "wrong.",
+  "start": 75.11,
+  "end": 75.57
+ },
+ {
+  "id": "w248",
+  "seg": "claim",
+  "text": "When",
+  "start": 75.92,
+  "end": 76.4
+ },
+ {
+  "id": "w249",
+  "seg": "claim",
+  "text": "you",
+  "start": 76.4,
+  "end": 76.56
+ },
+ {
+  "id": "w250",
+  "seg": "claim",
+  "text": "change",
+  "start": 76.56,
+  "end": 76.8
+ },
+ {
+  "id": "w251",
+  "seg": "claim",
+  "text": "the",
+  "start": 76.8,
+  "end": 76.96
+ },
+ {
+  "id": "w252",
+  "seg": "claim",
+  "text": "way",
+  "start": 76.96,
+  "end": 77.08
+ },
+ {
+  "id": "w253",
+  "seg": "claim",
+  "text": "you",
+  "start": 77.08,
+  "end": 77.2
+ },
+ {
+  "id": "w254",
+  "seg": "claim",
+  "text": "see",
+  "start": 77.2,
+  "end": 77.38
+ },
+ {
+  "id": "w255",
+  "seg": "claim",
+  "text": "yourself,",
+  "start": 77.38,
+  "end": 77.68
+ },
+ {
+  "id": "w256",
+  "seg": "claim",
+  "text": "the",
+  "start": 77.86,
+  "end": 77.94
+ },
+ {
+  "id": "w257",
+  "seg": "claim",
+  "text": "world",
+  "start": 77.94,
+  "end": 78.14
+ },
+ {
+  "id": "w258",
+  "seg": "claim",
+  "text": "around",
+  "start": 78.14,
+  "end": 78.48
+ },
+ {
+  "id": "w259",
+  "seg": "claim",
+  "text": "you",
+  "start": 78.48,
+  "end": 78.72
+ },
+ {
+  "id": "w260",
+  "seg": "claim",
+  "text": "changes,",
+  "start": 78.72,
+  "end": 79.1
+ }
+]

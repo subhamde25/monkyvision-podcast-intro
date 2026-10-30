@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html data-composition-variables='[
+  {"id":"color-ground","type":"color","label":"Background","default":"#0A0A0C"},
+  {"id":"color-accent","type":"color","label":"Accent","default":"#22D1C1"},
+  {"id":"color-amber","type":"color","label":"Amber (16 steps)","default":"#FFB020"}
+]'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <title>Resilient Mind Podcast - Intro</title>
+    <style>
+      #root { --accent: var(--color-accent, #22D1C1); --amber: var(--color-amber, #FFB020); background: var(--color-ground, #0A0A0C); }
+      #ground { position: absolute; inset: 0; background: var(--color-ground, #0A0A0C); }
+      #cam, #kick { position: absolute; inset: 0; transform-origin: 50% 42%; }
+      #aroll { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; object-fit: cover; }
+      #flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="82.917" data-width="1920" data-height="1080">
+      <div id="ground"></div>
+      <!-- A-roll: cut, framed and graded by tools/build_aroll.py. #cam carries the split layouts, #kick the beat hits. -->
+      <div id="cam"><div id="kick">
+        <video id="aroll" class="clip" src="assets/video/aroll4k.mp4" muted playsinline data-start="0" data-duration="82.917" data-track-index="0"></video>
+      </div></div>
+
+      <div id="s-title" data-composition-id="title" data-composition-src="compositions/title.html" data-start="9.583" data-duration="3.500" data-track-index="2" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="s-intro" data-composition-id="intro" data-composition-src="compositions/intro.html" data-start="13.083" data-duration="11.100" data-track-index="3" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="s-barrage" data-composition-id="barrage" data-composition-src="compositions/barrage.html" data-start="23.958" data-duration="26.292" data-track-index="4" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="s-method" data-composition-id="method" data-composition-src="compositions/method.html" data-start="50.250" data-duration="7.250" data-track-index="5" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="s-story" data-composition-id="story" data-composition-src="compositions/story.html" data-start="57.500" data-duration="18.250" data-track-index="6" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="s-claim" data-composition-id="claim" data-composition-src="compositions/claim.html" data-start="75.750" data-duration="3.650" data-track-index="7" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="s-end" data-composition-id="endcard" data-composition-src="compositions/endcard.html" data-start="79.400" data-duration="3.517" data-track-index="8" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+
+      <div id="caps-host" data-composition-id="caps" data-composition-src="compositions/caps.html" data-start="0" data-duration="82.917" data-track-index="10" data-track-kind="captions" data-width="1920" data-height="1080"></div>
+      <div id="wm-host" data-composition-id="wm" data-composition-src="compositions/wm.html" data-start="0" data-duration="82.917" data-track-index="11" data-track-kind="graphics" data-width="1920" data-height="1080"></div>
+      <div id="flash"></div>
+
+      <!-- one baked mix: dialogue + edited score + SFX (tools/mix_audio.py) -->
+      <audio id="mix" class="clip" src="assets/audio/mix.wav" data-start="0" data-duration="82.917" data-volume="1" data-track-index="20"></audio>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        // split layouts: the guest slides right to make room for the name card and the R.E.A.L. panel
+        tl.fromTo('#cam', { x: 0 }, { x: 460, duration: 0.55, ease: 'expo.out', immediateRender: false }, 15.583);
+        tl.set('#cam', { x: 0 }, 19.208);
+        tl.fromTo('#cam', { x: 0 }, { x: 640, duration: 0.6, ease: 'expo.out', immediateRender: false }, 50.25);
+        tl.set('#cam', { x: 0 }, 57.5);
+        // claim: one slow push while the line builds
+        tl.fromTo('#cam', { scale: 1 }, { scale: 1.06, duration: 3.6, ease: 'power1.inOut', immediateRender: false }, 75.75);
+        // beat kicks on the big words
+        [2.28, 4.2, 7.74, 29.07, 36.52, 42.38, 75.11].forEach((t) => {
+          tl.fromTo('#kick', { scale: 1.045 }, { scale: 1, duration: 0.4, ease: 'power3.out', immediateRender: false }, t);
+        });
+        // white flash on the title drop and the end card
+        [9.583, 79.4].forEach((t) => {
+          tl.fromTo('#flash', { opacity: 0.9 }, { opacity: 0, duration: 0.18, ease: 'power2.out', immediateRender: false }, t);
+        });
+        window.__timelines['main'] = tl;
+      })();
+    </script>
+  </body>
+</html>

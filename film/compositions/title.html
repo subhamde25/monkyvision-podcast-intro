@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <template>
+    <!-- 9.583-13.083 film. Host VO: Welcome .10 / to .60 / another .96 / episode 1.22 / of 1.70 / the 2.00 /
+         Resilient 2.18 / Mind 2.66 / podcast 2.90 (scene seconds) -->
+    <style>
+      #root { position: absolute; inset: 0; overflow: hidden; --accent: var(--color-accent, #22D1C1); }
+      .plate { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 60% at 50% 50%, #15181C 0%, #0A0A0C 70%); }
+      .frame { position: absolute; inset: 56px; border: 2px solid rgba(255,255,255,.08); }
+      #lock { position: absolute; left: 0; right: 0; top: 250px; text-align: center; }
+      #welcome { font-family: 'Space Mono', monospace; font-size: 30px; letter-spacing: .32em; color: rgba(255,255,255,.55); text-transform: uppercase; }
+      #welcome .w { display: inline-block; opacity: 0; }
+      .big { font-family: 'League Gothic', sans-serif; font-size: 340px; line-height: .8; text-transform: uppercase; letter-spacing: .01em; }
+      #res, #mind { display: inline-block; opacity: 0; }
+      #res { color: #fff; }
+      #mind { color: var(--accent); }
+      #pod { margin-top: 30px; font-family: Inter, sans-serif; font-weight: 800; font-size: 46px; letter-spacing: .62em; color: #fff; padding-left: .62em; }
+      #pod .pl { display: inline-block; opacity: 0; }
+      #rule { width: 760px; height: 4px; margin: 26px auto 0; background: var(--accent); transform: scaleX(0); }
+      #ft { margin-top: 30px; font-family: 'Space Mono', monospace; font-size: 30px; letter-spacing: .3em; color: rgba(255,255,255,.7); opacity: 0; }
+    </style>
+    <div id="root" data-composition-id="title" data-width="1920" data-height="1080">
+      <div class="plate"></div>
+      <div class="frame"></div>
+      <div id="lock">
+        <div id="welcome"><span class="w">Welcome</span> <span class="w">to</span> <span class="w">another</span> <span class="w">episode</span> <span class="w">of</span> <span class="w">the</span></div>
+        <div class="big" style="margin-top: 34px;"><span id="res">Resilient</span> <span id="mind">Mind</span></div>
+        <div id="pod"><span class="pl">P</span><span class="pl">O</span><span class="pl">D</span><span class="pl">C</span><span class="pl">A</span><span class="pl">S</span><span class="pl">T</span></div>
+        <div id="rule"></div>
+        <div id="ft">NEW EPISODE &middot; FT. SIMONE KNEGO</div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        [0.10, 0.60, 0.96, 1.22, 1.70, 2.00].forEach((t, i) => {
+          tl.fromTo(`#welcome .w:nth-child(${i + 1})`, { opacity: 0, filter: 'blur(6px)' }, { opacity: 1, filter: 'blur(0px)', duration: 0.13, ease: 'power2.out' }, t);
+        });
+        tl.fromTo('#res', { opacity: 0, scale: 1.35, filter: 'blur(14px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.24, ease: 'expo.out' }, 2.16);
+        tl.fromTo('#mind', { opacity: 0, scale: 1.35, filter: 'blur(14px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.24, ease: 'expo.out' }, 2.64);
+        document.querySelectorAll('#pod .pl').forEach((p, i) => { tl.fromTo(p, { opacity: 0, x: (i - 3) * 26 }, { opacity: 1, x: 0, duration: 0.5, ease: 'expo.out' }, 2.88); });
+        tl.fromTo('#rule', { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: 'power3.inOut' }, 2.92);
+        tl.fromTo('#ft', { opacity: 0 }, { opacity: 1, duration: 0.2, ease: 'power2.out' }, 3.05);
+        // leave: the lockup punches toward camera and blurs out on the cut
+        tl.fromTo('#lock', { scale: 1, opacity: 1 }, { scale: 1.12, opacity: 0, filter: 'blur(10px)', duration: 0.16, ease: 'power3.in', immediateRender: false }, 3.34);
+        window.__timelines['title'] = tl;
+      })();
+    </script>
+  </template>
+</html>

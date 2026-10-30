@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <template>
+    <!-- 23.958 film. Context chip over the quoted question, and the WHY NOT YOU? hero on its own shot.
+         Scene seconds: chip 0.14-5.67 / whynot shot 17.917-18.834 (why 17.98, not 18.16, you 18.42) -->
+    <style>
+      #root { position: absolute; inset: 0; overflow: hidden; --accent: var(--color-accent, #22D1C1); }
+      .chip { position: absolute; left: 112px; top: 96px; display: flex; align-items: center; gap: 18px; opacity: 0;
+              font-family: 'Space Mono', monospace; font-size: 28px; letter-spacing: .28em; color: #fff;
+              background: rgba(10,10,12,.62); padding: 14px 24px 14px 20px; border-radius: 4px; }
+      .chip i { display: block; width: 46px; height: 3px; background: var(--accent); transform-origin: 0 50%; }
+      #hero { position: absolute; inset: 0; opacity: 0; }
+      #hero .dim { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 70% at 50% 45%, rgba(10,10,12,.35) 0%, rgba(10,10,12,.82) 100%); }
+      #hero .t { position: absolute; left: 0; right: 0; top: 250px; text-align: center; font-family: 'League Gothic', sans-serif;
+                 font-size: 420px; line-height: .8; text-transform: uppercase; color: #fff; text-shadow: 0 10px 60px rgba(0,0,0,.5); }
+      #hero .t span { display: inline-block; opacity: 0; }
+      #hero #hy { color: var(--accent); }
+    </style>
+    <div id="root" data-composition-id="barrage" data-width="1920" data-height="1080">
+      <div class="chip" id="asked"><i></i>WHAT PEOPLE ASKED HER</div>
+      <div id="hero">
+        <div class="dim"></div>
+        <div class="t"><span id="hw">Why</span> <span id="hn">not</span> <span id="hy">you?</span></div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo('#asked', { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.4, ease: 'expo.out' }, 0.14);
+        tl.fromTo('#asked i', { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: 'power3.out' }, 0.2);
+        tl.fromTo('#asked', { opacity: 1 }, { opacity: 0, duration: 0.2, ease: 'power2.in', immediateRender: false }, 5.45);
+        tl.set('#hero', { opacity: 1 }, 17.917);
+        tl.fromTo('#hero .dim', { opacity: 0 }, { opacity: 1, duration: 0.12 }, 17.917);
+        [['#hw', 17.96], ['#hn', 18.14], ['#hy', 18.4]].forEach(([s, t]) => {
+          tl.fromTo(s, { opacity: 0, scale: 1.4, filter: 'blur(16px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.2, ease: 'expo.out' }, t);
+        });
+        tl.set('#hero', { opacity: 0 }, 18.834);
+        window.__timelines['barrage'] = tl;
+      })();
+    </script>
+  </template>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <template>
+    <!-- SD watermark, top-right for the whole film; a soft shadow keeps it readable over the bright window. -->
+    <style>
+      #root { position: absolute; inset: 0; pointer-events: none; }
+      #wm { position: absolute; right: 64px; top: 56px; width: 92px; height: auto; opacity: 0.62;
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,.55)); }
+    </style>
+    <div id="root" data-composition-id="wm" data-width="1920" data-height="1080">
+      <img id="wm" src="assets/img/sd.png" alt="" />
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        tl.to({}, { duration: 83 }, 0);
+        window.__timelines['wm'] = tl;
+      })();
+    </script>
+  </template>
+</html>

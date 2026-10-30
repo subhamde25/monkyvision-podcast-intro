@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <template>
+    <!-- 79.4 film, on the score's last downbeat. Show lockup, then hand over to the full episode. -->
+    <style>
+      #root { position: absolute; inset: 0; overflow: hidden; --accent: var(--color-accent, #22D1C1); }
+      .plate { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 60% at 50% 50%, #15181C 0%, #0A0A0C 70%); }
+      .frame { position: absolute; inset: 56px; border: 2px solid rgba(255,255,255,.08); }
+      #lock { position: absolute; left: 0; right: 0; top: 262px; text-align: center; }
+      .big { font-family: 'League Gothic', sans-serif; font-size: 330px; line-height: .8; text-transform: uppercase; color: #fff; }
+      .big span { display: inline-block; opacity: 0; }
+      #e2 { color: var(--accent); }
+      #pod { margin-top: 30px; font-family: Inter, sans-serif; font-weight: 800; font-size: 46px; letter-spacing: .62em; padding-left: .62em; color: #fff; }
+      #pod .pl { display: inline-block; opacity: 0; }
+      #rule { width: 760px; height: 4px; margin: 26px auto 0; background: var(--accent); transform: scaleX(0); }
+      #ft { margin-top: 30px; font-family: 'Space Mono', monospace; font-size: 30px; letter-spacing: .3em; color: rgba(255,255,255,.72); opacity: 0; }
+      #now { position: absolute; left: 0; right: 0; bottom: 120px; text-align: center; font-family: Inter, sans-serif; font-weight: 700; font-size: 30px;
+             letter-spacing: .28em; color: #fff; opacity: 0; }
+      #now b { color: var(--accent); font-weight: 800; }
+      #out { position: absolute; inset: 0; background: #000; opacity: 0; }
+    </style>
+    <div id="root" data-composition-id="endcard" data-width="1920" data-height="1080">
+      <div class="plate"></div>
+      <div class="frame"></div>
+      <div id="lock">
+        <div class="big"><span id="e1">Resilient</span> <span id="e2">Mind</span></div>
+        <div id="pod"><span class="pl">P</span><span class="pl">O</span><span class="pl">D</span><span class="pl">C</span><span class="pl">A</span><span class="pl">S</span><span class="pl">T</span></div>
+        <div id="rule"></div>
+        <div id="ft">WITH SIMONE KNEGO</div>
+      </div>
+      <div id="now">THE FULL CONVERSATION <b>STARTS NOW</b></div>
+      <div id="out"></div>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo('#e1', { opacity: 0, scale: 1.3, filter: 'blur(14px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.26, ease: 'expo.out' }, 0.0);
+        tl.fromTo('#e2', { opacity: 0, scale: 1.3, filter: 'blur(14px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.26, ease: 'expo.out' }, 0.12);
+        document.querySelectorAll('#pod .pl').forEach((p, i) => { tl.fromTo(p, { opacity: 0, x: (i - 3) * 26 }, { opacity: 1, x: 0, duration: 0.55, ease: 'expo.out' }, 0.3); });
+        tl.fromTo('#rule', { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: 'power3.inOut' }, 0.35);
+        tl.fromTo('#ft', { opacity: 0 }, { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0.6);
+        tl.fromTo('#now', { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.4, ease: 'expo.out' }, 1.0);
+        tl.fromTo('#out', { opacity: 0 }, { opacity: 1, duration: 0.55, ease: 'power2.in' }, 3.0);
+        window.__timelines['endcard'] = tl;
+      })();
+    </script>
+  </template>
+</html>

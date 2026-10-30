@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <template>
+    <!-- 57.5 film. Descent (graded darker in the A-roll until 68.125) and the comeback. Context chips only:
+         the words carry it. Scene seconds: in from black 0 / HIGH SCHOOL 2.65-4.5 /
+         mother 7.12-10.6 on her line (the score stabs at 8.8) / FIFTH GRADE 10.65-12.9 / book card 15.5-16.5 -->
+    <style>
+      #root { position: absolute; inset: 0; overflow: hidden; --accent: var(--color-accent, #22D1C1); }
+      #black { position: absolute; inset: 0; background: #0A0A0C; }
+      .chip { position: absolute; left: 112px; top: 96px; opacity: 0; font-family: 'Space Mono', monospace; font-size: 28px;
+              letter-spacing: .28em; color: #fff; background: rgba(10,10,12,.62); padding: 14px 24px 14px 20px; border-radius: 4px; }
+      .chip .row1 { display: flex; align-items: center; gap: 18px; }
+      .chip i { display: block; width: 46px; height: 3px; background: var(--accent); transform-origin: 0 50%; }
+      .chip .row2 { margin: 12px 0 0 64px; font-size: 28px; letter-spacing: .26em; color: rgba(255,255,255,.75); }
+      #book { position: absolute; right: 190px; top: 150px; width: 380px; opacity: 0; transform-origin: 50% 60%; }
+      #book img { display: block; width: 380px; height: 560px; object-fit: cover; border-radius: 6px;
+                  box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 0 1px rgba(255,255,255,.18); }
+      #book .cap { margin-top: 22px; text-align: center; font-family: 'Space Mono', monospace; font-size: 28px; letter-spacing: .26em; color: #fff;
+                   text-shadow: 0 2px 10px rgba(0,0,0,.7); }
+    </style>
+    <div id="root" data-composition-id="story" data-width="1920" data-height="1080">
+      <div id="black"></div>
+      <div class="chip" id="c-hs"><div class="row1"><i></i>HIGH SCHOOL</div></div>
+      <div class="chip" id="c-mom"><div class="row1"><i></i>HER MOTHER</div><div class="row2">PITTSBURGH MEDICAL SCHOOL &middot; 1961</div></div>
+      <div class="chip" id="c-5"><div class="row1"><i></i>FIFTH GRADE</div></div>
+      <div id="book"><img src="assets/img/book.png" alt="" /><div class="cap">HER FIRST BOOK</div></div>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo('#black', { opacity: 1 }, { opacity: 0, duration: 0.5, ease: 'power2.out' }, 0.05);
+        const chip = (id, a, b) => {
+          tl.fromTo(id, { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.4, ease: 'expo.out' }, a);
+          tl.fromTo(id + ' i', { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: 'power3.out' }, a + 0.05);
+          tl.fromTo(id, { opacity: 1 }, { opacity: 0, duration: 0.2, ease: 'power2.in', immediateRender: false }, b - 0.2);
+        };
+        chip('#c-hs', 2.65, 4.55);
+        chip('#c-mom', 7.12, 10.6);
+        chip('#c-5', 10.68, 12.92);
+        tl.fromTo('#book', { opacity: 0, x: 120, rotation: 9, filter: 'blur(10px)' }, { opacity: 1, x: 0, rotation: -4, filter: 'blur(0px)', duration: 0.5, ease: 'expo.out' }, 15.5);
+        tl.set('#book', { opacity: 0 }, 16.5);
+        window.__timelines['story'] = tl;
+      })();
+    </script>
+  </template>
+</html>

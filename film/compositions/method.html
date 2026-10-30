@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <template>
+    <!-- 50.25 film. The R.E.A.L. framework panel; the guest slides +640 in index.html.
+         Scene seconds: "real" 0.23 / respect 1.85 / embrace 2.98 / ask 4.79 / live 6.27 -->
+    <style>
+      #root { position: absolute; inset: 0; overflow: hidden; --accent: var(--color-accent, #22D1C1); }
+      #shade { position: absolute; left: 0; top: 0; bottom: 0; width: 1120px;
+               background: linear-gradient(90deg, #0A0A0C 0%, #0A0A0C 56%, rgba(10,10,12,.7) 72%, rgba(10,10,12,0) 100%); }
+      #tag { position: absolute; left: 112px; top: 132px; font-family: 'Space Mono', monospace; font-size: 28px; letter-spacing: .32em; color: var(--accent); opacity: 0; }
+      #ttl { position: absolute; left: 104px; top: 170px; font-family: 'League Gothic', sans-serif; font-size: 200px; line-height: .85; color: #fff; opacity: 0; letter-spacing: .02em; }
+      .row { position: absolute; left: 112px; display: flex; align-items: center; gap: 28px; opacity: 0; }
+      .row .L { font-family: 'League Gothic', sans-serif; font-size: 128px; line-height: .8; color: var(--accent); width: 74px; text-align: center; }
+      .row .T { font-family: Inter, sans-serif; font-weight: 800; font-size: 34px; line-height: 1.12; letter-spacing: .06em; color: #fff; text-transform: uppercase; }
+      #ra { top: 410px; } #rb { top: 552px; } #rc { top: 694px; } #rd { top: 836px; }
+    </style>
+    <div id="root" data-composition-id="method" data-width="1920" data-height="1080">
+      <div id="shade"></div>
+      <div id="tag">HER FRAMEWORK</div>
+      <div id="ttl">R.E.A.L.</div>
+      <div class="row" id="ra"><div class="L">R</div><div class="T">Respect<br/>yourself</div></div>
+      <div class="row" id="rb"><div class="L">E</div><div class="T">Embrace your<br/>failures</div></div>
+      <div class="row" id="rc"><div class="L">A</div><div class="T">Ask yourself<br/>what you want</div></div>
+      <div class="row" id="rd"><div class="L">L</div><div class="T">Live without<br/>limits</div></div>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo('#shade', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, 0);
+        tl.fromTo('#tag', { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.35, ease: 'expo.out' }, 0.12);
+        tl.fromTo('#ttl', { opacity: 0, scale: 1.25, filter: 'blur(12px)' }, { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 0.24, ease: 'expo.out', transformOrigin: '0% 80%' }, 0.23);
+        const rows = ['#ra', '#rb', '#rc', '#rd'], at = [1.85, 2.98, 4.79, 6.27];
+        rows.forEach((r, i) => {
+          tl.fromTo(r, { opacity: 0, x: -36, filter: 'blur(8px)' }, { opacity: 1, x: 0, filter: 'blur(0px)', duration: 0.32, ease: 'expo.out' }, at[i]);
+          if (i) tl.to(rows[i - 1], { opacity: 0.38, duration: 0.2, ease: 'power2.out' }, at[i]);
+        });
+        window.__timelines['method'] = tl;
+      })();
+    </script>
+  </template>
+</html>
