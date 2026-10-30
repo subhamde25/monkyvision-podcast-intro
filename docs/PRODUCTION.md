@@ -8,7 +8,7 @@ repo root.
 
 | Step | Command | In → out |
 |---|---|---|
-| 1. Locate the picks | `python -I tools/locate_clips.py` | 25 picked clip WAVs from the earlier pass → `clip_locations.json` (one-off; needs that pass's `../resilient-intro/assets/audio/`) |
+| 1. Locate the picks | `python -I tools/locate_clips.py` | 25 picked clip WAVs from the earlier pass → `clip_locations.json` (one-off: that pass's clips were deleted after matching, so the committed `clip_locations.json` is the record) |
 | 2. Word timings | `python -I tools/transcribe_windows.py 2.5` | each pick ±2.5 s, on its own mic → `words.json` |
 | 3. Cut script | `python -I tools/make_edl.py` | the `SHOTS` list (44 cuts, camera, mic, in/out, punch-in) → `edl.json`, cut points snapped to the quietest 5 ms |
 | 4. A-roll + dialogue | `python -I tools/build_aroll.py` · `RES=4k python -I tools/build_aroll.py` | → `build[4k]/aroll.mp4`, `build/dialog.wav`, `build/timeline.json`. Face-framed punch-ins (YuNet), per-camera grade, 24 fps. Arguments = shot indexes to rebuild only those |
