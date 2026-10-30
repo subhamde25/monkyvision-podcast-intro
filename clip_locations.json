@@ -1,0 +1,152 @@
+{
+ "01_hook": {
+  "track": "g",
+  "score": 1.0,
+  "in": 99.9,
+  "dur": 10.7
+ },
+ "02_welcome": {
+  "track": "h",
+  "score": 1.0,
+  "in": 2.7,
+  "dur": 4.15
+ },
+ "03_joined": {
+  "track": "h",
+  "score": 1.0,
+  "in": 7.3,
+  "dur": 2.25
+ },
+ "04_card": {
+  "track": "g",
+  "score": 1.0,
+  "in": 36.4,
+  "dur": 4.0
+ },
+ "05_notlife": {
+  "track": "g",
+  "score": 1.0,
+  "in": 43.4,
+  "dur": 2.55
+ },
+ "06_selfishq": {
+  "track": "g",
+  "score": 1.0,
+  "in": 290.55,
+  "dur": 5.0
+ },
+ "07_selfisha": {
+  "track": "g",
+  "score": 1.0,
+  "in": 298.0,
+  "dur": 3.3
+ },
+ "08_topq": {
+  "track": "g",
+  "score": 1.0,
+  "in": 327.15,
+  "dur": 4.3
+ },
+ "09_topa": {
+  "track": "g",
+  "score": 1.0,
+  "in": 331.5,
+  "dur": 3.7
+ },
+ "10_nosay": {
+  "track": "g",
+  "score": 1.0,
+  "in": 219.6,
+  "dur": 6.45
+ },
+ "11_skill": {
+  "track": "g",
+  "score": 0.999,
+  "in": 165.4,
+  "dur": 5.35
+ },
+ "12_whatif": {
+  "track": "h",
+  "score": 1.0,
+  "in": 777.5,
+  "dur": 5.05
+ },
+ "13_dropjust": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1276.25,
+  "dur": 2.35
+ },
+ "14_space": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1343.05,
+  "dur": 4.25
+ },
+ "15_scrollq": {
+  "track": "g",
+  "score": 1.0,
+  "in": 2298.15,
+  "dur": 3.2
+ },
+ "16_social": {
+  "track": "h",
+  "score": 1.0,
+  "in": 2321.3,
+  "dur": 3.8
+ },
+ "17_method": {
+  "track": "g",
+  "score": 1.0,
+  "in": 837.35,
+  "dur": 8.2
+ },
+ "18_cad": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1540.05,
+  "dur": 3.05
+ },
+ "19_origin": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1613.75,
+  "dur": 6.7
+ },
+ "20_man1961": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1841.95,
+  "dur": 3.75
+ },
+ "21_teacher": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1672.55,
+  "dur": 5.15
+ },
+ "22_publish": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1682.7,
+  "dur": 5.3
+ },
+ "23_exam": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1905.95,
+  "dur": 5.15
+ },
+ "24_proud": {
+  "track": "g",
+  "score": 1.0,
+  "in": 1914.35,
+  "dur": 4.9
+ },
+ "25_claim": {
+  "track": "g",
+  "score": 1.0,
+  "in": 2879.9,
+  "dur": 4.5
+ }
+}
