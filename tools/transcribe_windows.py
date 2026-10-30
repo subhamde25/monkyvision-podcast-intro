@@ -1,12 +1,12 @@
 # usage: python -I tools/transcribe_windows.py [pad]   (run from work/)
 # Word-timestamped transcript of each located clip (clip_locations.json) plus `pad` seconds either side,
 # on that clip's own mic track. Times are absolute source seconds. Writes words.json.
-import json, subprocess, sys
+import json, os, subprocess, sys
 import numpy as np
 from faster_whisper import WhisperModel
 
 PAD = float(sys.argv[1]) if len(sys.argv) > 1 else 2.0
-RAW = '../Raw Footage'
+RAW = os.environ.get('RAW_DIR', '../Raw Footage')   # the folder holding the supplied 6931f6... videos and WAVs
 TRACKS = {'g': f'{RAW}/6931f6c68fc841fc5136fc29-audio.wav', 'h': f'{RAW}/6931f6c93a63010f3d2c4fd4-audio.wav'}
 loc = json.load(open('clip_locations.json'))
 model = WhisperModel('small.en', device='cpu', compute_type='int8', cpu_threads=4)

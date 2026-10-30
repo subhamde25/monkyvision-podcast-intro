@@ -9,7 +9,7 @@ import cv2
 FPS = 24
 W, H = (3840, 2160) if os.environ.get('RES') == '4k' else (1920, 1080)
 B = 'build4k' if W == 3840 else 'build'
-RAW = '../Raw Footage'
+RAW = os.environ.get('RAW_DIR', '../Raw Footage')   # the folder holding the supplied 6931f6... videos and WAVs
 SRC = {
     'g': {'v': f'{RAW}/6931f6c68fc841fc5136fc29-video.mp4', 'a': f'{RAW}/6931f6c68fc841fc5136fc29-audio.wav', 'w': 1920, 'h': 1080},
     'h': {'v': f'{RAW}/6931f6c93a63010f3d2c4fd4-video.mp4', 'a': f'{RAW}/6931f6c93a63010f3d2c4fd4-audio.wav', 'w': 3840, 'h': 2160},

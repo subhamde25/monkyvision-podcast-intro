@@ -6,7 +6,7 @@ import numpy as np
 from scipy.signal import fftconvolve
 
 SR = 4000
-RAW = '../Raw Footage'
+RAW = os.environ.get('RAW_DIR', '../Raw Footage')   # the folder holding the supplied 6931f6... videos and WAVs
 TRACKS = {'g': f'{RAW}/6931f6c68fc841fc5136fc29-audio.wav', 'h': f'{RAW}/6931f6c93a63010f3d2c4fd4-audio.wav'}
 
 

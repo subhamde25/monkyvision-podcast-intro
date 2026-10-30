@@ -2,7 +2,7 @@
 # The cut script. Each shot = (id, camera, mic, in, out, zoom). Times are raw-recording seconds (both cameras
 # share one clock). mic: g / h / gh (both, for laughs) / none. Cut points that jump in time are snapped to the
 # quietest 5 ms inside a small window so no word is clipped; contiguous shots keep their exact join.
-import json, subprocess
+import json, os, subprocess
 import numpy as np
 
 SHOTS = [
@@ -60,7 +60,7 @@ SHOTS = [
     ('endcard',      'g', 'none', 2883.70, 2887.40, 1.00),
 ]
 
-RAW = '../Raw Footage'
+RAW = os.environ.get('RAW_DIR', '../Raw Footage')   # the folder holding the supplied 6931f6... videos and WAVs
 MIC = {'g': f'{RAW}/6931f6c68fc841fc5136fc29-audio.wav', 'h': f'{RAW}/6931f6c93a63010f3d2c4fd4-audio.wav'}
 SR = 8000
 
@@ -90,7 +90,7 @@ for i, (sid, v, a, t0, t1, z) in enumerate(SHOTS):
     nxt = SHOTS[i + 1] if i + 1 < len(SHOTS) else None
     if not (prev and abs(prev[4] - t0) < 1e-6):
         t0 = quiet(a, t0, -0.12, 0.04)
-    if not (nxt and abs(nxt[3] - t1) < 1e-6):
+    if not (nxt and abs(nxt[3] - t1) < 1e-6) and a != 'none':   # a silent shot ends exactly where it's told
         t1 = quiet(a, t1, -0.04, 0.15)
     segs.append({'id': sid, 'v': v, 'a': a, 'in': t0, 'out': t1, 'z': z})
 json.dump({'segs': segs}, open('edl.json', 'w'), indent=1)
